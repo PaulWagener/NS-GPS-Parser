@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import zmq, gzip, ns_gps_parser, cStringIO
 
 server_socket = zmq.Context().socket(zmq.SUB)
